@@ -159,7 +159,7 @@ nav a:hover{background:var(--bg)}
 nav a.cur{background:var(--navy);color:#fff}
 .bar{gap:18px}
 nav{display:flex;gap:4px;flex-wrap:wrap}
-@media(max-width:620px){nav a{margin:0!important;padding:8px 12px!important}}
+@media(max-width:620px){nav{gap:3px;flex-wrap:nowrap!important;justify-content:space-between}nav a{margin:0!important;padding:7px 9px!important;font-size:12.5px!important;white-space:nowrap}}
 .pagehead{background:linear-gradient(120deg,#0d2547 0%,#12305a 60%,#1f4f8f 100%);color:#fff;padding:54px 0 46px;border-bottom:4px solid var(--orange);position:relative;overflow:hidden}
 .pagehead::after{content:"";position:absolute;right:-70px;top:-90px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(240,127,19,.35),transparent 70%)}
 .pagehead .wrap{position:relative;z-index:1}
